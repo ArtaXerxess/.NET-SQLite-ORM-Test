@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SQLite ORM Test",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build sqlite_orm_test",
+            "program": "bin/Debug/net9.0/SQLite_ORM_Test.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        }
+    ]
+}
